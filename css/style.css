@@ -1,0 +1,11 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #307bdd, #c466f0);
+    color: white;
+}
+
+#menu-bar {
+    display: flex;
+}
