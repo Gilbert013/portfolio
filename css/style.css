@@ -1,11 +1,16 @@
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     border-radius: 10px;
-    background: linear-gradient(135deg, #307bdd, #c466f0);
+    background: linear-gradient(135deg, #307bdd, #a33df7);
     color: white;
 }
 
 #menu-bar {
     display: flex;
+}
+
+header {
+    height: 10vh;
+    position: fixed;
 }
