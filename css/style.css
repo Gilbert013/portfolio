@@ -29,7 +29,7 @@ header {
     width: 100%;
     z-index: 1000;      /* 다른 요소 위에 표시 */
     transition: all 0.3s ease;   /* 부드러운 변화 효과 */
-    height: 8vh;
+    height: 7vh;
     padding: 0 20px;
     
     display: flex;      /* Flexbox 레이아웃 */
@@ -89,9 +89,20 @@ header {
 }
 
 .empty-div1{
-    height: 8vh;
+    height: 7vh;
 }
 
 .empty-div{
     height: 10vh;
+}
+
+footer {
+    background: var(--white);
+    box-shadow: 0 2px 20px var(--shadow);
+    position: fixed;    /* 스크롤해도 상단에 고정 */
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;      /* 다른 요소 위에 표시 */
+    height: 3vh;
+    padding: 0 20px;
 }
