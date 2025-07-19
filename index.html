@@ -22,34 +22,46 @@
     </header>
     <main>
         <!-- 메인 화면-->
-        <div class="empty-div1" id="main-window"></div>
-        <div class="container" >
-            <div>
-                
-                <div></div>
-                <h3></h3>
-            </div>
-        </div>
-
-        <!-- 소개 섹션-->
-        <div class="empty-div" id="info-window"></div>
-        <div class="container" >소개
+        <!-- <div class="empty-div1"></div> -->
+        <div class="container" id="main-window">
             <div id="text-content">
-                <h1>안녕하세요, 저는 장범준 입니다.</h1>
-                <p>Java Fullstack Developer</p>
-                <p>
+                <h1 class="main-title">안녕하세요, 저는 <span class="highlight">장범준</span> 입니다.</h1>
+                <p class="main-subtitle">Java Fullstack Developer</p>
+                <p class="main-description">
                     사용자 경험을 중시하는 자바 풀스택 개발자입니다.
                     새로운 기술을 배우는 것을 좋아하며, 
                     클린하고 효율적인 코드를 작성하기 위해 노력합니다.
                 </p>
+                <div class="main-buttons">
+                    <button class="btn-primary" onclick="">프로젝트 보기</button>
+                    <button class="btn-secondary" onclick="">이력서 다운로드</button>
+                </div>
+                <div class="social-links">
+                    <button class="social-btn github" onclick="">🌘</button>
+                    <button class="social-btn linkedin" onclick="">🔗</button>
+                    <button class="social-btn email" onclick="">📧</button>
+                    <button class="social-btn portfolio" onclick="">🌐</button>
+                </div>
             </div>
-            <div id="hero-image">
-                <div>이미지</div>
+
+            <div class="hero-image">
+                <div class="profile-image" onclick="">
+                    👨‍🔬
+                </div>
+            </div>
+        </div>
+
+        <!-- 소개 섹션-->
+        <!-- <div class="empty-div" ></div> -->
+        <div class="container" id="info-window">소개
+            <div>
+                <div><img src="./img/pillows.png"></div>
+                <h3></h3>
             </div>
         </div>
 
         <!-- 기술 섹션-->
-        <div class="empty-div"></div>
+        <!-- <div class="empty-div"></div> -->
         <div class="container" id="tech-window">기술
             <div id="tech-content">
                 <h1>HTML</h1><p>하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 브라우저에 표시되도록 설계된 표준 마크업 언어다.</p>
@@ -59,17 +71,19 @@
         </div>
 
         <!-- 프로젝트 섹션 -->
-        <div class="empty-div"></div>
+        <!-- <div class="empty-div"></div> -->
         <div class="container" id="project-window">프로젝트 0</div>
 
         <!-- 연락처 스킬 섹션 -->
-        <div class="empty-div"></div>
+        <!-- <div class="empty-div"></div> -->
         <div class="container" id="tel-window">연락처 010-4937-4565
             <div>github</div>
             <div>linkedin</div>
             <div>email</div>
             <div>portfolio</div>
         </div>
+
+        <!-- <div class="empty-div"></div> -->
     </main>
 
     <!-- 푸터 -->

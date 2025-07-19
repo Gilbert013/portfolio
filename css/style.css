@@ -14,11 +14,23 @@
 
 /* 공통 컨테이너 */
 .container {
-    width: 100vw;
-    height: 90vh;
-    border-radius: 10px;
+    width: 90vw;
+    height: 60vh;
+    border-radius: 20px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: var(--white);
+
+    margin: 10vh auto 5vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* 두 개의 동일한 너비 열 */
+    gap: 4rem;
+    align-items: center;
+}
+
+.container:hover {
+    transform: translateY(-5px);    /* 호버시 5px 상승효과 */
 }
 
 header {
@@ -88,12 +100,112 @@ header {
     font-size: 2rem;   /* 크기 확대 */
 }
 
+/*
 .empty-div1{
-    height: 7vh;
+    height: 37vh;
 }
 
 .empty-div{
-    height: 10vh;
+    height: 40vh;
+}
+*/
+#text-content {
+    
+}
+
+.main-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.main-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;         /* 투명도로 계층 구조 표현 */
+}
+
+.main-description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+    line-height: 1.8;   /* 본문 가독성 위한 넓은 줄 간격 */
+}
+
+.main-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.highlight {
+    /* 그라디언트 텍스트 효과 */
+    background: linear-gradient(45deg, #ff9a9e, #fecfef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;      /* 텍스트에만 그라디언트 적용 */
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #fd8589, #fecfef);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.main-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary .btn-secondary {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: white;
+    color: var(--primary-color);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);   /* 호버 시 위로 이동 */
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: var(--primary-color);  
 }
 
 footer {
