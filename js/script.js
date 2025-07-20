@@ -13,3 +13,18 @@ function goGmail(){
 function goNaver(){
     window.open("https://www.naver.com/");
 }
+
+function onClickHighlight1(){
+    const highLight = document.getElementById("tech-letter1");
+    highLight.classList.add("highlight");
+}
+
+function onClickHighlight2(){
+    const highLight = document.getElementById("tech-letter2");
+    highLight.classList.add("highlight");
+}
+
+function onClickHighlight3(){
+    const highLight = document.getElementById("tech-letter3");
+    highLight.classList.add("highlight");
+}
