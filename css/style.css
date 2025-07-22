@@ -30,6 +30,20 @@
     align-items: center;
 }
 
+.container-project {
+    width: 90vw;
+    height: 60vh;
+    border-radius: 20px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    padding: 15px;
+
+    margin: 10vh auto 5vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
 .container:hover {
     transform: translateY(-5px);    /* 호버시 5px 상승효과 */
 }
@@ -151,6 +165,8 @@ header {
 .hero-image {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: auto auto;
 }
 
 .profile-image {
@@ -170,6 +186,10 @@ header {
 .profile-image:hover {
     transform: scale(1.05);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.profile-title{
+    
 }
 
 .main-buttons {
@@ -210,9 +230,7 @@ header {
     color: var(--primary-color);  
 }
 
-.info-container {
-    display: flex;
-}
+
 
 .bed {
     width: 250px;
@@ -228,12 +246,23 @@ header {
     border: 5px solid rgba(255, 255, 255, 0.3);
 }
 
+.bed:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
 .info-intro {
     padding-bottom: 30vh;
 }
 
+.info-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .info-contents {
-    
+   
 }
 
 .info-circle {
@@ -243,6 +272,45 @@ header {
     background: linear-gradient(45deg, #fd8589, #fecfef);
     text-align: center;
     line-height: 50px;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.tels {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #fd8589, #fecfef);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tels:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.input-form {
+    border-radius: 5px;
+}
+
+.submit {
+    padding: 3px 30px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.submit:hover{
+    cursor: pointer;
 }
 
 footer {
@@ -254,4 +322,8 @@ footer {
     z-index: 1000;      /* 다른 요소 위에 표시 */
     height: 3vh;
     padding: 0 20px;
+    background-color: white;
+    color: var(--primary-color);
+
+    text-align: center;
 }

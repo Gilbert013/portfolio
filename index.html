@@ -60,20 +60,24 @@
                 <div class="info-container">
                     <div class="info-contents">
                         <div class="info-circle">0</div>
-                        <h4>완성 프로젝트 수</h4>
+                        <h5>완성 프로젝트 수</h5>
                     </div>
+                    
                     <div class="info-contents">
                         <div class="info-circle">0</div>
-                        <h4>팔로워 수</h4>
+                        <h5>팔로워 수</h5>
                     </div>
+                    
                     <div class="info-contents">
                         <div class="info-circle">0</div>
-                        <h4>Github 커밋 수</h4>
+                        <h5>Github 커밋 수</h5>
                     </div>
+                    
                     <div class="info-contents">
                         <div class="info-circle">40</div>
-                        <h4>연속 학습일 수</h4>
+                        <h5>연속 학습일 수</h5>
                     </div>
+                    
                 </div>
             </div>
             <div>
@@ -98,20 +102,29 @@
 
         <!-- 프로젝트 섹션 -->
         <!-- <div class="empty-div"></div> -->
-        <div class="container" id="project-window">
+        <div class="container-project" id="project-window">
             <div class="hero-image">
                 <div class="profile-image">0</div>
-                <h2>프로젝트 수</h2>
+                <h2 class="profile-title">프로젝트 수</h2>
             </div>
         </div>
 
         <!-- 연락처 스킬 섹션 -->
         <!-- <div class="empty-div"></div> -->
-        <div class="container" id="tel-window">연락처 010-4937-4565
-            <div>github</div>
-            <div>linkedin</div>
-            <div>email</div>
-            <div>portfolio</div>
+        <div class="container" id="tel-window">
+            <div class="tels">연락처</div>
+            <div class="tels" onclick="goGithub()">github</div>
+            <div class="tels" onclick="goLinkedin()">linkedin</div>
+            <div class="tels" onclick="goGmail()">email</div>
+            <div class="tels">tel: 010-4937-4565</div>
+            <div>
+                <form>
+                    <input class="input-form" type="text" id="name" placeholder="이름">
+                    <input class="input-form" type="email" id="email" placeholder="이메일">
+                    <input class="input-form" type="text" id="message" placeholder="메시지">
+                    <input class="submit" type="submit">
+                </form>
+            </div>
         </div>
 
         <!-- <div class="empty-div"></div> -->
