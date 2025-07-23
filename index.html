@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href ="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <script src="./js/script.js"></script>
 </head>
 <body>
@@ -19,6 +20,7 @@
             <a href="#tech-window">기술</a>
             <a href="#project-window">프로젝트</a>
             <a href="#tel-window">연락처</a>
+            <img src="./img/menu-bar.png">
         </nav>
     </header>
     <main>
@@ -44,17 +46,11 @@
                     <button class="social-btn portfolio" onclick="goNaver()">🌐</button>
                 </div>
             </div>
-
-            <div class="hero-image">
-                <div class="profile-image" onclick="">
-                    🙎
-                </div>
-            </div>
         </div>
 
         <!-- 소개 섹션-->
         <!-- <div class="empty-div" ></div> -->
-        <div class="container" id="info-window">
+        <div class="container-project" id="info-window">
             <div>
                 <div class="info-intro"><h3>약력</h3></div>    
                 <div class="info-container">
@@ -91,7 +87,7 @@
         <!-- <div class="empty-div"></div> -->
         <div class="container" id="tech-window">
             <div>
-                <img src="./img/settings-gears.png">
+                <img src="./img/settings.png" class="gear">
             </div>
             <div id="tech-content">
                 <h1 onclick="onClickHighlight1()" id="tech-letter1">HTML</h1><p>하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 브라우저에 표시되도록 설계된 표준 마크업 언어다.</p>

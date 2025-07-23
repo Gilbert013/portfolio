@@ -1,0 +1,42 @@
+@media screen and (min-width:320px) and (max-width:768px){
+    #icon a{
+        font-size: 1rem;
+    }
+
+    #icon a:hover{
+        font-size: 1.4rem;
+    }
+
+    #menu-bar a {
+        font-size: 0;
+    }
+
+    #menu-bar img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .main-title{
+        font-size: 1.5rem;
+    }
+
+    .main-subtitle{
+        font-size: 1rem;
+    }
+
+    .main-description{
+        font-size: 0.75rem;
+    }
+
+    .container {
+        width: 90vw;
+        height: 60vh;
+        border-radius: 20px;
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        color: var(--white);
+        padding: 15px;
+
+        margin: 10vh auto 5vh;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+}
