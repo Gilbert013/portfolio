@@ -52,7 +52,15 @@
         <!-- <div class="empty-div" ></div> -->
         <div class="container-project" id="info-window">
             <div>
-                <div class="info-intro"><h3>약력</h3></div>    
+                <div class="info-intro">
+                    <h3>자기소개</h3>
+                    <div class="intro-space"></div>
+                    <p>안녕하세요. 저는 고등학교를 졸업한 후 현재는 사회 경험을 쌓기 위해 다양한 방향을 고민하고 있는 사람입니다. 아직 직업은 없지만, 그 시간을 활용해 <span class="highlight">자기계발과 미래를 위한 준비</span>를 하고 있습니다.<br>
+
+독서와 글쓰기, 온라인 강의 수강 등을 통해 지식을 넓히는 데 집중하고 있습니다. 비록 지금은 백수라는 타이틀이 붙어 있지만, 저는 제 잠재력을 믿고 <span class="highlight">새로운 도전</span>을 향해 나아가는 중입니다.<br>
+
+앞으로 어떤 일이든 <span class="highlight">성실하고 적극적인 자세</span>로 임할 준비가 되어 있습니다. 제 가능성에 투자해주신다면, 기대 이상의 성과로 보답하겠습니다. 감사합니다</p>
+                </div>    
                 <div class="info-container">
                     <div class="info-contents">
                         <div class="info-circle">0</div>
@@ -85,29 +93,30 @@
 
         <!-- 기술 섹션-->
         <!-- <div class="empty-div"></div> -->
-        <div class="container" id="tech-window">
+        <div class="container-project" id="tech-window">
             <div>
                 <img src="./img/settings.png" class="gear">
             </div>
             <div id="tech-content">
-                <h1 onclick="onClickHighlight1()" id="tech-letter1">HTML</h1><p>하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 브라우저에 표시되도록 설계된 표준 마크업 언어다.</p>
-                <h1 onclick="onClickHighlight2()" id="tech-letter2">CSS</h1><p>종속형 시트 또는 캐스케이딩 스타일 시트(영어: Cascading Style Sheets)는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(영어: style sheet language or style language)로[1], HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다.</p>
-                <h1 onclick="onClickHighlight3()" id="tech-letter3">JavaScript</h1><p>자바스크립트(영어: JavaScript)는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다.</p>
+                <h1 onclick="onClickHighlight1()" id="tech-letter1" class="tech-subtitle">HTML</h1><p class="tech-description">하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 브라우저에 표시되도록 설계된 표준 마크업 언어다.</p>
+                <h1 onclick="onClickHighlight2()" id="tech-letter2" class="tech-subtitle">CSS</h1><p class="tech-description">종속형 시트 또는 캐스케이딩 스타일 시트(영어: Cascading Style Sheets)는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(영어: style sheet language or style language)로[1], HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다.</p>
+                <h1 onclick="onClickHighlight3()" id="tech-letter3" class="tech-subtitle">JavaScript</h1><p class="tech-description">자바스크립트(영어: JavaScript)는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다.</p>
             </div>
         </div>
 
         <!-- 프로젝트 섹션 -->
         <!-- <div class="empty-div"></div> -->
-        <div class="container-project" id="project-window">
+        <div class="container" class="container-project" id="project-window">
             <div class="hero-image">
                 <div class="profile-image">0</div>
-                <h2 class="profile-title">프로젝트 수</h2>
+                
             </div>
+            <h2 class="profile-title">프로젝트 수</h2>
         </div>
 
         <!-- 연락처 스킬 섹션 -->
         <!-- <div class="empty-div"></div> -->
-        <div class="container" id="tel-window">
+        <div class="container-project" class="container-project" id="tel-window">
             <div class="tels">연락처</div>
             <div class="tels" onclick="goGithub()">github</div>
             <div class="tels" onclick="goLinkedin()">linkedin</div>

@@ -38,7 +38,6 @@
     margin: 10vh auto 5vh;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 
-    
     display: grid;
     grid-template-columns: 1fr 1fr;   /*두 개의 동일한 너비 열 */
     gap: 4rem;
@@ -190,6 +189,9 @@ header {
     cursor: pointer;
     transition: all 0.3s ease;
     border: 5px solid rgba(255, 255, 255, 0.3);
+
+    text-align: center;
+    margin-top: 15vh;
 }
 
 .profile-image:hover {
@@ -198,7 +200,7 @@ header {
 }
 
 .profile-title{
-    
+    text-align: center;
 }
 
 .main-buttons {
@@ -239,8 +241,6 @@ header {
     color: var(--primary-color);  
 }
 
-
-
 .bed {
     width: 250px;
     height: 250px;
@@ -261,7 +261,16 @@ header {
 }
 
 .info-intro {
-    padding-bottom: 30vh;
+    padding: 40px;
+    padding-bottom: 15vh;
+}
+
+.info-intro p {
+    font-weight: 500;
+}
+
+.intro-space{
+    height: 2vh;
 }
 
 .info-container {

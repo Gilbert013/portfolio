@@ -28,6 +28,42 @@
         font-size: 0.75rem;
     }
 
+    .bed {
+        width: 0px;
+        height: 0px;
+        font-size: 0rem;
+    }
+
+    .info-intro h3{
+        font-size: 1rem;
+    }
+
+    .info-intro p{
+        font-size: 0.5rem;
+    }
+
+    .gear {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tech-subtitle{
+        font-size: 1rem;
+    }
+
+    .tech-description{
+        font-size: 0.5rem;
+    }
+
+    .tels {
+        width: 75px;
+        height: 75px;
+    }
+
+    .input-form{
+        width: 100px;
+    }
+
     .container {
         width: 90vw;
         height: 60vh;
